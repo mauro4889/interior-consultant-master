@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@500;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    position: relative;
+}
+
+.nav_menu {
+    width: 100vw;
+    height: 100vh;
+    list-style: none;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    position: absolute;
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+a:visited {
+    color: white;
+}
+
+#btn_home {
+    border-bottom: 2.5px solid #ffffff;
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+.btn_close {
+    color: white;
+    position: absolute;
+    font-size: 150%;
+    z-index: 100;
+    left: 90vw;
+    top: 0.5em;
+    display: none;
+}
+
+.open_menu {
+    color: white;
+    position: absolute;
+    font-size: 150%;
+    z-index: 100;
+    left: 90vw;
+    top: 0.8em;
+}
+
+.btn_interior {
+    font-family: 'Crimson Pro';
+    font-weight: 200;
+    background-color: black;
+    color: white;
+    border-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.txt_container h1 {
+    font-family: 'Lora';
+    font-weight: 500;
+    color: white;
+    margin-left: 5%;
+}
+
+.txt_container p {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: left;
+    width: 68%;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.btn_read_more {
+    margin-left: 5%;
+    font-family: 'Montserrat';
+    font-size: 700;
+}
+
+.fa-arrow-right-long {
+    margin-left: 5%;
+}
+
+.img_container {
+    position: relative;
+    width: 100%;
+}
