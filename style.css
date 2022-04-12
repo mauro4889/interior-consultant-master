@@ -98,4 +98,70 @@ a:visited {
 .img_container {
     position: relative;
     width: 100%;
+    margin-top: 15%;
+}
+
+.designer_container {
+    width: 100%;
+    height: 20em;
+    position: relative;
+}
+
+.img_deco {
+    background: url(./img/photo1.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.info_designer {
+    background-color: #181719;
+    width: 80%;
+    position: absolute;
+    top: 15em;
+    left: 2.5em;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_perfil {
+    background: url(./img/photo2.png) no-repeat;
+    background-size: contain;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 0;
+    width: 15%;
+    height: 2.8em;
+    border-radius: 100px;
+}
+
+.name_prof {
+    margin-left: 5%;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.name_prof p {
+    font-size: 70%;
+    color: #828282;
+    margin-top: 0;
+}
+
+.name_prof h3 {
+    margin-bottom: 5%;
+}
+
+.info {
+    width: 55%;
+    margin-left: 15%;
+    font-family: 'Lora';
+    font-weight: 700;
+}
+
+.name_prof,
+.prof,
+.info {
+    color: white;
 }
